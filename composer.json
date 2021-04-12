@@ -30,10 +30,10 @@
     ],
     "require": {
         "php": ">=7.1",
-        "symfony/framework-bundle": "~4.0",
-        "symfony/options-resolver": "~4.0",
-        "symfony/validator": "~4.0",
-        "symfony/event-dispatcher": "~4.0",
+        "symfony/framework-bundle": "^4.0 || ^5.0",
+        "symfony/options-resolver": "^4.0 || ^5.0",
+        "symfony/validator": "^4.0 || ^5.0",
+        "symfony/event-dispatcher": "^4.0 || ^5.0",
         "sau/tissue": ">=1.0.0",
         "sau/tissue-clamav-adapter": ">=1.0.0"
     },
