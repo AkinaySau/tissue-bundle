@@ -37,9 +37,9 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $tb = new TreeBuilder();
+        $tb = new TreeBuilder('tissue');
         $self = $this;
-        $rootNode = $tb->root('tissue');
+        $rootNode = $tb->getRootNode();
 
         $rootNode
             ->canBeEnabled()
